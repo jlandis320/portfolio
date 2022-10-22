@@ -1,6 +1,12 @@
+import union from "./Union.svg"
+
 const About = () => {
   return ( 
-    <h1>I'm the about page</h1>
+    <>
+      <img src={union} alt="placeholder img" />
+      <h1>About Me</h1>
+      <p>brand statement</p>
+    </>
    );
 }
  

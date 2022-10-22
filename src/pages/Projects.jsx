@@ -1,6 +1,6 @@
 const Projects = () => {
   return (
-    <h1>I'm the projects page</h1>
+    <h1>Look on my works ye mighty</h1>
   );
 }
 
