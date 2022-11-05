@@ -1,0 +1,29 @@
+.bar{
+  height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+
+.navlink{
+  text-transform: uppercase;
+  font-size: larger;
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 5px;
+  box-shadow: 3px 2px black, 1px 0 black, 2px 1px black;
+}
+
+.navlink:visited {
+  color: black;
+  border: 0px solid black;
+}
+
+.navlink:active{
+  color: black;
+}
+
+.navlink:hover{
+  box-shadow: 3px 2px red, 1px 0 red, 2px 1px red;
+}
