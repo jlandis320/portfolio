@@ -7,7 +7,7 @@ const About = () => {
       <h1>About Me</h1>
       <p>brand statement</p>
     </>
-   );
+  );
 }
- 
+
 export default About
