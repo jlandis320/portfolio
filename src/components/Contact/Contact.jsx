@@ -23,9 +23,7 @@ const Contact = () => {
         <p>
           <button type="submit">Send</button>
         </p>
-      </form>
-      <Link to="https://github.com/jlandis320">GITHUB</Link>
-      <Link to="https://www.linkedin.com/in/jess-landis/">LINKEDIN</Link>
+      </form>      
     </>
   );
 };
