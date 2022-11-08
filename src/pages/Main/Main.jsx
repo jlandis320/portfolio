@@ -1,9 +1,8 @@
 // css imports
-import styles from "./Home.module.css";
+import styles from "./Main.module.css";
 
 // assets imports
 import { BsLinkedin, BsGithub } from "react-icons/bs";
-import headshot from "./headshot.jpg";
 import github from "./github.svg";
 import linkedin from "./linkedin.svg";
 
@@ -11,16 +10,14 @@ import linkedin from "./linkedin.svg";
 import About from "../../components/About/About";
 import Projects from "../../components/Projects/Projects";
 import Contact from "../../components/Contact/Contact";
+import Home from "../../components/Home/Home"
 import { Link } from "react-router-dom";
 
-const Home = ({projects}) => {
+const Main = ({projects}) => {
   return (
     <>
       <div className={styles.page} style={{backgroundColor: 'aliceblue'}}>
-        <h1>Hi, I'm Jess Landis</h1>
-        <img src={headshot} className={styles.pic} alt="jess"></img>
-        <h2>I'm a software engineer</h2>
-        <p>I'm also a dog lover, avid reader, and pop culture trivia geek.</p>
+        <Home />
       </div>
       <div className={styles.page} style={{backgroundColor: 'lightblue'}}>
         <About />
@@ -43,4 +40,4 @@ const Home = ({projects}) => {
   );
 };
 
-export default Home;
+export default Main;

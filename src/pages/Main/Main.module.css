@@ -1,17 +1,11 @@
 .page {
-  height: calc(100vh - 4em);
+  min-height: calc(100vh - 4em);
+  max-height: fit-content;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-top: 1em;
 }
-
-.pic {
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  align-self: center;
-}
-
 .icons {
   position: sticky;
   bottom: 25px;

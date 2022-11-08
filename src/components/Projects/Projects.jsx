@@ -7,7 +7,7 @@ import styles from "./Projects.module.css";
 const Projects = ({projects}) => {
   return (
     <>
-      <div style={{height: "100%", marginTop: "1em"}}>
+      <div>
         <img src={mac} alt="placeholder img" className={styles.mac} />
         <h1>My Work</h1>
         <ProjectList projects={projects} />
