@@ -15,8 +15,11 @@
 .icons {
   position: sticky;
   bottom: 25px;
-  text-align: right;
+  right: 100%;
   display: flex;
   flex-direction: column;
-  padding-right: 1em;
+  justify-content: space-between;
+  padding-left: 1em;
+  width: fit-content;
+  height: 70px;
 }

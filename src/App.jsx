@@ -6,13 +6,14 @@ import Home from "./pages/Home/Home";
 // import Projects from "./pages/Projects/Projects";
 import Resume from "./pages/Resume/Resume";
 import NavBar from "./components/NavBar/NavBar";
+import { projects } from "./data/projects.jsx"
 
 function App() {
   return (
     <div className="App">
       <NavBar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home projects={projects} />} />
         {/* <Route path="/about" element={<About />} /> */}
         {/* <Route path="/contact" element={<Contact />} /> */}
         {/* <Route path="/projects" element={<Projects />} /> */}
