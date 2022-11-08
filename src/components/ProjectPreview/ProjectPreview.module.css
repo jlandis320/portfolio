@@ -1,5 +1,12 @@
 .projectCard {
+  display: flex;
   border: 2px solid black;
   height: fit-content;
   width: 25em;
+}
+
+.img {
+  width: 40%;
+  height: auto;
+  padding: 1em;
 }

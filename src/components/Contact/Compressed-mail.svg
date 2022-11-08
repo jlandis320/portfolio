@@ -1,0 +1,22 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M20 10V8H22V10H20Z" fill="#404040"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M18 28V10H20V28H18Z" fill="#404040"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M26 8H22V6H26V8Z" fill="#404040"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M42 6H26V4H42V6Z" fill="#404040"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M66 6H44V4H66V6Z" fill="#404040"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M66 26V6H68V26H66Z" fill="#404040"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M66 58V28H68V58H66Z" fill="#404040"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M42 8V6H44V8H42Z" fill="#404040"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M62 10V8H64V10H62Z" fill="#404040"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M64 28V26H66V28H64Z" fill="#404040"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M64 60V58H66V60H64Z" fill="#404040"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M62 62V60H64V62H62Z" fill="#404040"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M42 26V22H44V26H42Z" fill="#404040"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M34 60H14V58H34V60Z" fill="#404040"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M34 56H14V54H34V56Z" fill="#404040"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M34 52H14V50H34V52Z" fill="#404040"/>
+<path d="M40 40H46V48H40V40Z" fill="#404040"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M36 34H32V32H36V34Z" fill="#404040"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M46 34H42V32H46V34Z" fill="#404040"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M40 8H42V10H58V12H40V16H56V28H60V10H62V28H64V30H62V64H52V68H4V36H18V30H20V36H24V30H20V28H24V16H38V12H22V10H40V8ZM38 18H26V28H32V26H34V28H38V26H34V24H38V18ZM26 30H36V32H38V36H26V30ZM42 26H40V18H54V28H42V26ZM42 30H46V32H48V30H54V54H52V36H40V32H42V30ZM56 56V30H60V62H52V56H56ZM6 38H50V66H6V38Z" fill="#404040"/>
+</svg>
