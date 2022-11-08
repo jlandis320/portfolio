@@ -1,16 +1,17 @@
-const ProjectList = ({projects}) => {
-  return (           
-    <ul>
-    {projects.map((project, idx) => 
-    <>
-    <li key={idx}> { project.title }</li>
-    <p key={idx}> { project.description }</p>
-    <img key={idx} src={ project.image } alt="screenshot"/>
-    <li key={idx}> { project.repoLink }</li>
-    <li key={idx}> { project.depoLink }</li>
-    </>
-    )}
-  </ul>
-)}
+import ProjectPreview from "../ProjectPreview/ProjectPreview";
+
+import styles from "./ProjectList.module.css"
+
+const ProjectList = ({ projects }) => {
+  return (
+    <div className={styles.projects}>
+      {projects.map((project, idx) => (
+        <>
+            <ProjectPreview project={project} key={idx} />
+        </>
+      ))}
+    </div>
+  );
+};
 
 export default ProjectList;
