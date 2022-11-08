@@ -1,7 +1,6 @@
 body {
   margin: 0;
-  font-family: Menlo, Monaco, Menlo, Consolas, 'Courier New',
-  monospace;
+  font-family: 'Ranade', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -12,9 +11,11 @@ code {
 }
 
 h1 {
+  font-family: 'Archivo', sans-serif;
   font-weight: lighter;
 }
 
 h2{
+  font-family: 'Archivo', sans-serif;
   font-weight: lighter;
 }
