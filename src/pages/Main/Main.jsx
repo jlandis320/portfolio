@@ -2,7 +2,6 @@
 import styles from "./Main.module.css";
 
 // assets imports
-import { BsLinkedin, BsGithub } from "react-icons/bs";
 import github from "./github.svg";
 import linkedin from "./linkedin.svg";
 import up from "./arrow-up-circle.svg"
@@ -12,7 +11,7 @@ import About from "../../components/About/About";
 import Projects from "../../components/Projects/Projects";
 import Contact from "../../components/Contact/Contact";
 import Home from "../../components/Home/Home"
-import { Link } from "react-router-dom";
+
 
 const Main = ({projects}) => {
   return (

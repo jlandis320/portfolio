@@ -1,7 +1,3 @@
-import { Link } from "react-router-dom";
-
-import styles from "../About/About.module.css"
-
 import mail from "./Compressed-mail.svg"
 
 const Contact = () => {

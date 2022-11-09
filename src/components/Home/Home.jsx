@@ -2,7 +2,6 @@
 import styles from "./Home.module.css";
 
 // assets imports
-import { BsLinkedin, BsGithub } from "react-icons/bs";
 import headshot from "./headshot.jpg";
 
 const Home = ({ projects }) => {
