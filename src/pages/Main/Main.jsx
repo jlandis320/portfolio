@@ -5,6 +5,7 @@ import styles from "./Main.module.css";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import github from "./github.svg";
 import linkedin from "./linkedin.svg";
+import up from "./arrow-up-circle.svg"
 
 // component imports
 import About from "../../components/About/About";
@@ -16,7 +17,7 @@ import { Link } from "react-router-dom";
 const Main = ({projects}) => {
   return (
     <>
-      <div className={styles.page} style={{backgroundColor: 'aliceblue'}}>
+      <div className={styles.page}>
         <Home />
       </div>
       <div className={styles.page} style={{backgroundColor: 'lightblue'}}>
@@ -29,6 +30,9 @@ const Main = ({projects}) => {
         <Contact />
       </div>
       <div className={styles.icons}>
+        <a href="#nav">
+          <img src={up} alt="top" />
+        </a>
         <a href="https://www.linkedin.com/in/jess-landis/">
           <img src={linkedin} alt="linkedin icon"/>
         </a>

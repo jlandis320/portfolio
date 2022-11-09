@@ -4,11 +4,11 @@ import styles from './NavBar.module.css'
 
 const NavBar = () => {
   return (
-    <nav className={styles.bar}>
+    <nav className={styles.bar} id="nav">
       <NavLink to='/' className={styles.navlink}>Home</NavLink>
-      {/* <NavLink to="/about">About</NavLink> */}
-      {/* <NavLink to="/contact">Contact</NavLink> */}
-      {/* <NavLink to="/projects">Work</NavLink> */}
+      <a href="#about" className={styles.navlink}>About</a>
+      <a href="#work" className={styles.navlink}>Work</a>
+      <a href="#contact" className={styles.navlink}>Contact</a>
       <NavLink to="/resume" className={styles.navlink}>Resumé</NavLink>
     </nav>
   );

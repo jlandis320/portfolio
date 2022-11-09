@@ -6,8 +6,8 @@ import mail from "./Compressed-mail.svg"
 
 const Contact = () => {
   return (
-    <div>
-      <img src={mail} alt="mail" />
+    <div id="work">
+      <img src={mail} alt="mail" id="contact"/>
       <h1>Reach out if you'd like to work with me:</h1>
       <form name="contact" method="POST" data-netlify="true">
         <p>
