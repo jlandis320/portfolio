@@ -19,13 +19,13 @@ const Main = ({projects}) => {
       <div className={styles.page}>
         <Home />
       </div>
-      <div className={styles.page} style={{backgroundColor: 'lightblue'}}>
+      <div className={styles.page}>
         <About />
       </div>
-      <div className={styles.page} style={{backgroundColor: 'lightskyblue'}}>
+      <div className={styles.page}>
         <Projects projects={projects}/>
       </div>
-      <div className={styles.page} style={{backgroundColor: 'cornflowerblue'}}>
+      <div className={styles.page}>
         <Contact />
       </div>
       <div className={styles.icons}>

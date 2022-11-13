@@ -26,4 +26,14 @@ h3{
 
 button {
   background-color: white;
+  font-family: 'Ranade', sans-serif;
+  font-weight: lighter;
 }
+
+a, 
+a:active,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
