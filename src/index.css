@@ -23,3 +23,7 @@ h2{
 h3{
   font-family: 'Archivo', sans-serif;
 }
+
+button {
+  background-color: white;
+}
