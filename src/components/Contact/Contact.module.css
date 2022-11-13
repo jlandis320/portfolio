@@ -8,7 +8,10 @@
 .formContainer textarea, input {
   width: 100%;
   border: 1px solid black;
+  font-family: 'Archivo', sans-serif;
+  font-weight: lighter;
 }
+
 .formContainer button {
   text-transform: uppercase;
   font-family: 'Ranade', sans-serif;

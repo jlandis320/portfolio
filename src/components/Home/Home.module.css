@@ -1,15 +1,14 @@
 .pic {
-  height: 100px;
-  width: 100px;
+  height: 300px;
+  width: 300px;
   border-radius: 50%;
   align-self: center;
 }
 
 .hbody {
-    min-height: calc(100vh - 4em);
-    max-height: fit-content;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 1em;
-  }
+  min-height: 100vh;
+  max-height: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 2em ;
+}
