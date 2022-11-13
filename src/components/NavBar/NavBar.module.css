@@ -26,4 +26,5 @@
 
 .navlink:hover{
   box-shadow: 3px 2px red, 1px 0 red, 2px 1px red;
+  opacity: 100;
 }

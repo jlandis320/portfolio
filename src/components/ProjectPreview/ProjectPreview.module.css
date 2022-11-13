@@ -1,12 +1,22 @@
 .projectCard {
   display: flex;
-  border: 2px solid black;
   height: fit-content;
-  width: 25em;
+  width: 80%;
+  height: 40%;
 }
 
 .img {
-  width: 40%;
+  width: 40vw;
   height: auto;
-  padding: 1em;
 }
+
+section {
+  width: 50vw;
+  margin: 0 1em;
+}
+
+section p {
+  text-align: justify;
+  text-justify:newspaper;
+}
+

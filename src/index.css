@@ -37,3 +37,6 @@ a:visited {
   color: black;
 }
 
+a:hover {
+  opacity: 40%;
+}
