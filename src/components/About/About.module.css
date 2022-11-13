@@ -1,6 +1,15 @@
 .union{
   height: 75px;
   width: 75px;
+
+}
+
+.aboutp {
+  display: flex;
+  align-self: center;
+  width: 70%;
+  text-align: justify;
+  justify-content: newspaper;
 }
 
 
