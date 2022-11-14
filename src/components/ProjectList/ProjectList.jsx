@@ -5,7 +5,7 @@ import styles from "./ProjectList.module.css"
 const ProjectList = ({ projects }) => {
   return (
     <div className={styles.projects}>
-      {projects.map((project, idx) => (
+      {projects.reverse().map((project, idx) => (
             <ProjectPreview project={project} key={idx} />
       ))}
     </div>
