@@ -23,7 +23,7 @@ const NavBar = () => {
       <a href="#about" className={styles.navlink}>About</a>
       <a href="#work" className={styles.navlink}>Work</a>
       <a href="#contact" className={styles.navlink}>Contact</a>
-      <button onClick={downloadRes} className={styles.navlink}>Resumé</button>
+      <button onClick={downloadRes} className={styles.navlink} title="Download Resumé">Resumé</button>
     </nav>
   );
 }
