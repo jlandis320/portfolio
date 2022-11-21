@@ -11,7 +11,7 @@ const NavBar = () => {
         const fileURL = window.URL.createObjectURL(blob)
         let alink = document.createElement('a')
         alink.href = fileURL
-        alink.download = 'JessResume.pdf'
+        alink.download = 'JessLandisResume.pdf'
         alink.click()
       })
     })
