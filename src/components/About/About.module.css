@@ -1,10 +1,16 @@
-.union{
+.union {
   height: 75px;
   width: 75px;
+}
 
+.aboutStackContainer {
+  display: grid;
+  grid-template-columns: 2;
+  justify-items: center;
 }
 
 .aboutp {
+  grid-column: 2;
   display: flex;
   align-self: center;
   width: 70%;
@@ -12,4 +18,13 @@
   justify-content: newspaper;
 }
 
+.stackContainer {
+  padding-left: 4em;
+}
+
+.stackContainer img {
+  grid-column: 1;
+  width: 2em;
+  padding: .5em;
+}
 
