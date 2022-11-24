@@ -5,8 +5,8 @@
   flex-direction: column;
   justify-content: flex-start;
   padding-top: 1em;
-  width: 900px;
-  place-self: center;
+  background-color: white;
+  box-shadow: 2px black;
 }
 
 /* @media (min-width: 900px) {
@@ -29,4 +29,11 @@
 
 .icons img {
   width: 2em;
+}
+
+@media screen and (min-width: 1000px){
+  .page {
+  width: 900px;
+  place-self: center;
+  }
 }

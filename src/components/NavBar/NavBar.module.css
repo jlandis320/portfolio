@@ -4,6 +4,8 @@
   align-items: center;
   justify-content: space-evenly;
   margin: 0 1em;
+  background-color: white;
+  width: 100%;
 }
 
 .navlink{
@@ -29,13 +31,13 @@
   opacity: 100;
 }
 
-@media (max-width: 550px) {
+@media screen and (max-width: 550px) {
   .navlink {
     font-size: small;
   }
 }
 
-@media (min-width: 900px) {
+@media screen and (min-width: 1000px) {
   .bar {
     width: 900px;
     place-self: center;
