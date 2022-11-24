@@ -2,7 +2,7 @@
   height: 4em;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin: 0 1em;
 }
 
@@ -10,8 +10,9 @@
   text-transform: uppercase;
   font-size: larger;
   text-decoration: none;
-  border: 2px solid black;
+  width: 100px;
   padding: 5px;
+  border: 2px solid black;
   box-shadow: 3px 2px black, 1px 0 black, 2px 1px black;
 }
 
@@ -28,7 +29,6 @@
   opacity: 100;
 }
 
-
 @media (max-width: 550px) {
   .navlink {
     font-size: small;
@@ -38,5 +38,6 @@
 @media (min-width: 900px) {
   .bar {
     width: 900px;
+    place-self: center;
   }
 }

@@ -5,6 +5,8 @@
   flex-direction: column;
   justify-content: flex-start;
   padding-top: 1em;
+  width: 900px;
+  place-self: center;
 }
 
 /* @media (min-width: 900px) {
