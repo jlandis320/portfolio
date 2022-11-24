@@ -25,13 +25,6 @@
 }
 
 .navlink:hover{
-  /* box-shadow: 3px 2px red, 1px 0 red, 2px 1px red; */
-  opacity: 100;
-}
-
-
-#home:hover{
-  box-shadow: 3px 2px #D9F7FF, 1px 0 #D9F7FF, 2px 1px #D9F7FF;
   opacity: 100;
 }
 
@@ -39,5 +32,11 @@
 @media (max-width: 550px) {
   .navlink {
     font-size: small;
+  }
+}
+
+@media (min-width: 900px) {
+  .bar {
+    width: 900px;
   }
 }

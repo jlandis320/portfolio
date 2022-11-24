@@ -1,3 +1,7 @@
+html {
+  scroll-behavior:smooth
+}
+
 body {
   margin: 0;
   font-family: "Ranade", sans-serif;
@@ -28,6 +32,10 @@ button {
   background-color: white;
   font-family: "Ranade", sans-serif;
   font-weight: lighter;
+}
+
+p {
+  font-size: 20px;
 }
 
 a,

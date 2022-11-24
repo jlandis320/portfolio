@@ -15,13 +15,16 @@
 } */
 
 .icons {
-  position: sticky;
-  bottom: 2em;
-  right: 100%;
   display: flex;
   flex-direction: column;
+  position: sticky;
+  bottom: 2em;
   justify-content: space-between;
-  padding-left: 1em;
+  padding-left: 1.5em;
   width: fit-content;
-  height: 120px;
+  height: 140px;
+}
+
+.icons img {
+  width: 2em;
 }
