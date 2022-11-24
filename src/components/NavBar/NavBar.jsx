@@ -19,11 +19,11 @@ const NavBar = () => {
 
   return (
     <nav className={styles.bar} id="nav">
-      <NavLink to='/' className={styles.navlink}>Home</NavLink>
-      <a href="#about" className={styles.navlink}>About</a>
-      <a href="#work" className={styles.navlink}>Work</a>
-      <a href="#contact" className={styles.navlink}>Contact</a>
-      <button onClick={downloadRes} className={styles.navlink} title="Download Resumé">Resumé</button>
+      <NavLink to='/' className={styles.navlink} id="homebutton">Home</NavLink>
+      <a href="#about" className={styles.navlink} id="aboutbutton">About</a>
+      <a href="#work" className={styles.navlink} id="workbutton">Work</a>
+      <a href="#contact" className={styles.navlink} id="contactbutton">Contact</a>
+      <button onClick={downloadRes} className={styles.navlink} id="resumebutton" title="Download Resumé">Resumé</button>
     </nav>
   );
 }

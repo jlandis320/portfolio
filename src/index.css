@@ -1,36 +1,36 @@
 body {
   margin: 0;
-  font-family: 'Ranade', sans-serif;
+  font-family: "Ranade", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 h1 {
-  font-family: 'Archivo', sans-serif;
+  font-family: "Archivo", sans-serif;
   font-weight: lighter;
 }
 
-h2{
-  font-family: 'Archivo', sans-serif;
+h2 {
+  font-family: "Archivo", sans-serif;
   font-weight: lighter;
 }
 
-h3{
-  font-family: 'Archivo', sans-serif;
+h3 {
+  font-family: "Archivo", sans-serif;
 }
 
 button {
   background-color: white;
-  font-family: 'Ranade', sans-serif;
+  font-family: "Ranade", sans-serif;
   font-weight: lighter;
 }
 
-a, 
+a,
 a:active,
 a:visited {
   text-decoration: none;
@@ -42,5 +42,31 @@ a:hover {
 }
 
 span {
-  padding: .1em .3em;
+  padding: 0.1em 0.3em;
+}
+
+#homebutton:hover {
+  box-shadow: 3px 2px #6fbee8, 1px 0 #6fbee8, 2px 1px #6fbee8;
+  opacity: 100;
+}
+
+#aboutbutton:hover {
+  box-shadow: 3px 2px #aeffd7, 1px 0 #aeffd7, 2px 1px #aeffd7;
+  box-shadow: 3px 2px #beb1ff, 1px 0 #beb1ff, 2px 1px #beb1ff;
+  opacity: 100;
+}
+
+#workbutton:hover {
+  box-shadow: 3px 2px #ffbbae, 1px 0 #ffbbae, 2px 1px #ffbbae;
+  opacity: 100;
+}
+
+#contactbutton:hover {
+  box-shadow: 3px 2px #beb1ff, 1px 0 #beb1ff, 2px 1px #beb1ff;
+  opacity: 100;
+}
+
+#resumebutton:hover {
+  box-shadow: 3px 2px #68B38D, 1px 0 #68B38D, 2px 1px #68B38D;
+  opacity: 100;
 }

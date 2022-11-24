@@ -2,7 +2,7 @@
   height: 4em;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0 1em;
 }
 
@@ -25,9 +25,16 @@
 }
 
 .navlink:hover{
-  box-shadow: 3px 2px red, 1px 0 red, 2px 1px red;
+  /* box-shadow: 3px 2px red, 1px 0 red, 2px 1px red; */
   opacity: 100;
 }
+
+
+#home:hover{
+  box-shadow: 3px 2px #D9F7FF, 1px 0 #D9F7FF, 2px 1px #D9F7FF;
+  opacity: 100;
+}
+
 
 @media (max-width: 550px) {
   .navlink {

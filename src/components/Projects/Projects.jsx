@@ -11,17 +11,6 @@ const Projects = ({projects}) => {
         <img src={mac} alt="placeholder img" className={styles.mac} id="work"/>
         <h1>My Work</h1>
         <ProjectList projects={projects} />
-        {/* <ul>
-          {projects.map((project, idx) => 
-          <>
-          <li key={idx}> { project.title }</li>
-          <p key={idx}> { project.description }</p>
-          <img key={idx} src={ project.image } alt="screenshot"/>
-          <li key={idx}> { project.repoLink }</li>
-          <li key={idx}> { project.depoLink }</li>
-          </>
-          )}
-        </ul> */}
       </div>
     </>
   );

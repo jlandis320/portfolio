@@ -14,6 +14,7 @@ import python from "./python.svg"
 import react from "./react.svg"
 import tailwind from "./tailwind.svg"
 import npm from "./npm.svg"
+import postman from "./postman.svg"
 
 
 import styles from "./About.module.css";
@@ -42,6 +43,7 @@ const About = () => {
           <img src={html} alt="html" title="HTML"/>
           <img src={css} alt="CSS" title="CSS"/>
           <img src={django} alt="django" title="Django" />
+          <img src={postman} alt="postman" title="Postman" />
         </div>
         <p className={styles.aboutp}>
           I'm a software engineer with an eye for design who loves finding the

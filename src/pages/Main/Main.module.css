@@ -7,6 +7,13 @@
   padding-top: 1em;
 }
 
+/* @media (min-width: 900px) {
+  .page{
+    max-width: 80%;
+    justify-content: center;
+  }
+} */
+
 .icons {
   position: sticky;
   bottom: 2em;
