@@ -3,14 +3,18 @@
   width: 75px;
 }
 
+
+
 .aboutStackContainer {
   display: grid;
-  grid-template-columns: 2;
+  grid-template-areas: 
+  "stackContainer aboutp"
+  ;
   justify-items: center;
 }
 
 .aboutp {
-  grid-column: 2;
+  /* grid-column: 2; */
   display: flex;
   align-self: center;
   width: 70%;
@@ -24,8 +28,24 @@
 }
 
 .stackContainer img {
-  grid-column: 1;
+  display: grid;
+  /* grid-column: 1; */
   width: 2em;
   padding: .5em;
 }
 
+@media screen and (max-width: 550px) {
+  .aboutStackContainer {
+    padding-left: 2em;
+    grid-template-areas: 
+    "stackContainer"
+    "aboutp";
+  }
+  .stackContainer {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    flex-wrap: wrap;
+    padding-left: 0;
+  }
+}
