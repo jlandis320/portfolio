@@ -1,12 +1,11 @@
 .page {
-  min-height: calc(90vh - 4em);
+  min-height: calc(100vh - 4em);
   max-height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   padding-top: 1em;
   background-color: white;
-  box-shadow: 2px black;
 }
 
 /* @media (min-width: 900px) {
