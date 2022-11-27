@@ -8,12 +8,6 @@
   background-color: white;
 }
 
-/* @media (min-width: 900px) {
-  .page{
-    max-width: 80%;
-    justify-content: center;
-  }
-} */
 
 .icons {
   display: flex;
@@ -28,6 +22,10 @@
 
 .icons img {
   width: 2em;
+}
+
+@media screen and (max-width: 550px) {
+  .icons { }
 }
 
 @media screen and (min-width: 1000px){

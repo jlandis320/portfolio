@@ -35,6 +35,11 @@
   .navlink {
     font-size: small;
   }
+  .bar {
+    flex-wrap: wrap;
+    margin-top: 10px;
+    height: 80px;
+  }
 }
 
 @media screen and (min-width: 1000px) {
