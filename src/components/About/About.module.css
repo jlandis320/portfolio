@@ -3,49 +3,42 @@
   width: 75px;
 }
 
-
-
 .aboutStackContainer {
-  display: grid;
-  grid-template-areas: 
-  "stackContainer aboutp"
-  ;
-  justify-items: center;
+ display: flex;
+ width: 80%;
 }
 
 .aboutp {
-  /* grid-column: 2; */
   display: flex;
   align-self: center;
-  width: 70%;
+  width: 50%;
   text-align: justify;
   justify-content: newspaper;
   margin: 0;
 }
 
 .stackContainer {
-  padding-left: 4em;
+  width: 50%;
 }
 
 .stackContainer img {
-  display: grid;
-  /* grid-column: 1; */
   width: 2em;
   padding: .5em;
 }
 
 @media screen and (max-width: 550px) {
   .aboutStackContainer {
-    padding-left: 2em;
-    grid-template-areas: 
-    "stackContainer"
-    "aboutp";
+    flex-direction: column-reverse;
+    width: 80%;
+  }
+  .aboutp {
+    width: 100%;
   }
   .stackContainer {
     display: flex;
-    justify-content: center;
-    width: 90%;
     flex-wrap: wrap;
-    padding-left: 0;
+    width: 100%;
+    justify-content: space-between;
   }
+
 }
