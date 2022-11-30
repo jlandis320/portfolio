@@ -23,7 +23,7 @@ const NavBar = () => {
       <a href="#about" className={styles.navlink} id="aboutbutton">About</a>
       <a href="#work" className={styles.navlink} id="workbutton">Work</a>
       <a href="#contact" className={styles.navlink} id="contactbutton">Contact</a>
-      <a href="https://jesslandis.netlify.app/Jess-Landis-Resume.pdf" className={styles.navlink} target="_blank" rel="noreferrer">Resumé</a>
+      <a href="https://jesslandis.netlify.app/Jess-Landis-Resume.pdf" className={styles.navlink} target="_blank" rel="noreferrer" id="resumebutton">Resumé</a>
     </nav>
   );
 }
