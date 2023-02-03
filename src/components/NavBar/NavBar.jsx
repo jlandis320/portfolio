@@ -19,7 +19,7 @@ const NavBar = () => {
 
   return (
     <nav className={styles.bar} id="nav">
-      <NavLink to='/' className={styles.navlink} id="homebutton">Home</NavLink>
+      {/* <NavLink to='/' className={styles.navlink} id="homebutton">Home</NavLink> */}
       <a href="#about" className={styles.navlink} id="aboutbutton">About</a>
       <a href="#work" className={styles.navlink} id="workbutton">Work</a>
       <a href="#contact" className={styles.navlink} id="contactbutton">Contact</a>

@@ -1,11 +1,12 @@
 .union {
+  padding-top: 4.5em;
   height: 75px;
   width: 75px;
 }
 
 .aboutStackContainer {
- display: flex;
- width: 80%;
+  display: flex;
+  width: 80%;
 }
 
 .aboutp {
@@ -23,7 +24,7 @@
 
 .stackContainer img {
   width: 2em;
-  padding: .5em;
+  padding: 0.5em;
 }
 
 @media screen and (max-width: 550px) {
@@ -40,5 +41,4 @@
     width: 100%;
     justify-content: space-between;
   }
-
 }

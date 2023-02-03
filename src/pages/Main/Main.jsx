@@ -29,7 +29,7 @@ const Main = ({projects}) => {
         <Contact />
       </div>
       <div className={styles.icons}>
-        <a href="#nav">
+        <a href="#header">
           <img src={up} alt="top" />
         </a>
         <a href="https://www.linkedin.com/in/jess-landis/">
