@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 // import resume from 'Jess-Landis-Resume.pdf'
 
 import styles from './NavBar.module.css'
