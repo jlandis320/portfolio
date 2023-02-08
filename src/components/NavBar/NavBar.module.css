@@ -32,14 +32,26 @@
   opacity: 100;
 }
 
+.hamburger {
+  display: none;
+}
+
 @media screen and (max-width: 550px) {
   .navlink {
-    font-size: small;
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+    position: absolute;
+    left: 70%;
+    background-color: white;
   }
   .bar {
     flex-wrap: wrap;
     margin-top: 10px;
     height: 80px;
+    background-color: transparent;
   }
 }
 
